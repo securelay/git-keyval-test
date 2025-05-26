@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@octokit/graphql": "^8.2.2",
+    "@octokit/request": "^9.2.3",
+    "js-base64": "^3.7.7"
+  },
+  "devDependencies": {
+    "dotenv": "^16.5.0",
+    "mocha": "^11.1.0",
+    "semistandard": "^17.0.0"
+  },
+  "scripts": {
+    "test": "mocha --recursive src --timeout 40000",
+    "lint": "semistandard --fix"
+  }
+}
